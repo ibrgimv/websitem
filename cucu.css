@@ -1,15 +1,31 @@
 body {
 }
+
+
+.solid{
+    width: 100%;
+    height: 500px;
+
+    border-bottom: 5px solid #1f2937;
+    position: absolute;
+    top: -500px;
+    background-image: url("desktop-wallpaper-ynwa-anthem-youll-never-walk-alone.jpg");
+
+    transition: top 1s ease-in-out;
+}
+.solid:hover{
+    top: 0;
+}
 header{
     display: flex;
     justify-content: space-around;
     width: 100%;
     height: 50px;
-    background-color: #1f2937 ;
+    background-color: #2B2E4A ;
 }
 a , ul{
     display: flex;
-    color: white;
+    color:aliceblue;
     text-decoration: none;
     list-style-type: none;
     margin-left: 15px;
@@ -32,10 +48,10 @@ a , ul{
     margin-right: 60px;
 }
 .header{
-    background-color: #1f2937;
+    background-color: #2B2E4A
     width: 100%;
     height: 400px;
-    color:white;
+    color: aliceblue;
 }
 .conteiner{
     display: flex;
@@ -43,6 +59,7 @@ a , ul{
     height: 300px;
     width: 100%;
     margin-top: 70px;
+
 }
 .image{
     height: 300px;
@@ -59,14 +76,14 @@ a , ul{
     display: flex;
     width: 450px;
     height: 50px;
-    margin-left: 220px;
+    margin-right: 190px;
     margin-bottom: 0%;
 }
 .h1{
     display: flex;
     width: 400px;
     height: 100px;
-    margin-left: 170px;
+    margin-right: 240px;
     margin-bottom: 0%;
     font-size: 48px;
     font-weight: bold;
@@ -80,23 +97,26 @@ a , ul{
     align-items: center;
     border-radius: 5px ;
     margin-right: 113px;
+    color: aliceblue;
 }
 .header2{
     display: flex;
-    background-color: white;
+    background-color: #E84545;
 }
 .picture{
     display: flex;
     width: 100%;
     height: 400px;
     justify-content: center;
+    background-color: #E84545;
 }
+
+
 .one , .two , .three , .four{
     display: flex;
-    border: solid #3882F6 5px;
+    border: solid #1f2937 5px;
     width: 190px;
     height: 190px;
-    border-radius: 17px;
     margin-top: 80px;
     margin-left: 60px;
 }
@@ -109,7 +129,7 @@ a , ul{
     display: flex;
     width: 100%;
     height: 400px;
-    background-color: #e5e7eb;
+    background-color: #903749;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -135,6 +155,7 @@ a , ul{
     margin-top: 200px;
     justify-content: center;
     text-align: center;
+    margin-right: 200px;
 }
 .conteiner3{
     display: flex;
@@ -142,12 +163,14 @@ a , ul{
     height: 300px;   
     justify-content: center;
     align-items: center;
+    background-color: #903749;
+    
 }
 .items-blue{
     display: flex;
     width: 1000px;
     height: 130px;
-    background-color: #3882F6;
+    background-color: #1f2937;
     border-radius: 10px;
     justify-content: space-around;
     align-items: center;
@@ -159,7 +182,7 @@ button{
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: #3882F6;
+    background-color: #1f2937;
     border: solid white 2px;
     border-radius: 5px;
 }
@@ -173,7 +196,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1f2937;
+    background-color: #53354A;
     color: white;
     height: 100px;
 }
